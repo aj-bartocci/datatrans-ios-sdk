@@ -12,6 +12,10 @@ let package = Package(
         .library(
             name: "KlarnaMobileSDK",
             targets: ["DTKlarna", "KlarnaMobileSDK"]
+        ),
+        .library(
+            name: "DatatransPPRiskMagnes",
+            targets: ["PPRiskMagnes"]
         )
     ],
     targets: [
