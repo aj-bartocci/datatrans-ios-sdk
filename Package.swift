@@ -15,7 +15,7 @@ let package = Package(
         ),
         .library(
             name: "DatatransPPRiskMagnes",
-            targets: ["PPRiskMagnes"]
+            targets: ["DatatransPPRiskMagnes"]
         )
     ],
     targets: [
@@ -32,7 +32,7 @@ let package = Package(
             path: "KlarnaMobileSDK.xcframework"
         ),
         .binaryTarget(
-            name: "PPRiskMagnes",
+            name: "DatatransPPRiskMagnes",
             path: "PPRiskMagnes.xcframework"
         )
     ]
